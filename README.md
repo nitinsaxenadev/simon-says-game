@@ -1,8 +1,6 @@
 # 🎮 Simon Says Game
 
-A classic memory game built with **HTML, CSS, and vanilla JavaScript** — no frameworks, no libraries, just the DOM. Watch the sequence of colors, repeat it back correctly, and see how far you can get before you slip up.
-
-![Simon Says Game Screenshot](./screenshots/gameplay.png)
+An interactive browser-based memory game built using vanilla JavaScript and DOM APIs. Implements dynamic sequence generation, asynchronous event timing, and real-time state management without external dependencies.
 
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
@@ -16,7 +14,10 @@ A classic memory game built with **HTML, CSS, and vanilla JavaScript** — no fr
 
 Simon Says is a memory game where the computer plays a sequence of flashing colored tiles, and the player has to repeat it back in the same order. Each round the sequence grows by one — one wrong move and the game is over. This project recreates that classic in the browser using plain JavaScript, with no external dependencies.
 
+
 ---
+<img width="1892" height="911" alt="Game play" src="https://github.com/user-attachments/assets/d7b27e0b-1e7c-4bba-940f-a69070b95855" />
+
 
 ## ✨ Features
 
@@ -31,14 +32,16 @@ Simon Says is a memory game where the computer plays a sequence of flashing colo
 
 ```
 simon-says-game/
-├── index.html          # Main HTML file
-├── css/
-│   └── style.css        # Styling for the game board and buttons
-├── js/
-│   └── app.js            # Game logic
-├── screenshots/
-│   └── gameplay.png      # Screenshot used in this README
-└── README.md
+├──README.md
+├──Sreenshots.zip
+│  └── gameplay.png      # Screenshot used in this README
+├──Js/
+│   └── app.js           # Game logic
+├──index.html            # Main HTML file
+└──  css/
+      └── style.css      # Styling for the game board and buttons
+
+
 ```
 
 ---
@@ -60,7 +63,7 @@ No build tools, installs, or dependencies required.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/simon-says-game.git
+git clone https://github.com/nitinsaxenadev/simon-says-game.git
 cd simon-says-game
 ```
 
@@ -119,6 +122,6 @@ This project is open-source software licensed under the [MIT License](LICENSE). 
 ## 🙋 Author
 
 Built by **Nitin Saxena**
-- GitHub: [@your-username](https://github.com/nitinsaxenadev)
+- GitHub: [@nitinsaxenadev](https://github.com/nitinsaxenadev)
 
 If you like this project, consider giving it a ⭐ on GitHub!
